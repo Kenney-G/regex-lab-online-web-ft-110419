@@ -29,5 +29,5 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  ^[2-9]\d{2}-\d{3}-\d{4}$
+  /^[2-9]\d{2}-\d{3}-\d{4}$/
 end
